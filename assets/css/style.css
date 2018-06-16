@@ -1,0 +1,20 @@
+html,body{
+    background: transparent;
+}
+/**** HEADER ****/
+img.img-fluid.logo {
+    height: 95px;
+}
+
+#menu_container #main_menu ul li a {
+    color: #000;
+    font-weight: bold;
+}
+
+#menu_container #main_menu ul li.active a {
+    color: #A98F4F;
+}
+
+#menu_container #main_menu ul li:hover a {
+    color: #A98F4F;
+}
