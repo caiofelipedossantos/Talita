@@ -2,6 +2,10 @@ html,body{
     background: transparent;
 }
 /**** HEADER ****/
+.main_nav{
+    padding: 0;
+}
+
 img.img-fluid.logo {
     height: 95px;
 }
