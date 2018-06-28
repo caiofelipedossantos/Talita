@@ -1,0 +1,24 @@
+@font-face {
+    font-family: ChaparralPro_bold_italic;
+    src: url(chaparral-pro-bold-italic.otf);
+}
+
+@font-face {
+    font-family: ChaparralPro_bold;
+    src: url(chaparral-pro-bold.otf);
+}
+
+@font-face {
+    font-family: ChaparralPro_light_italic;
+    src: url(chaparral-pro-light-italic.otf);
+}
+
+@font-face {
+    font-family: ChaparralPro_light;
+    src: url(chaparral-pro-light.otf);
+}
+
+@font-face {
+    font-family: ChaparralPro;
+    src: url(chaparral-pro.otf);
+}
