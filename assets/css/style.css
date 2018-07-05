@@ -217,6 +217,7 @@ img.img-fluid.logo {
     background: url(../images/boofa.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
     background-size: cover;
     padding: 35px 0;
 }
@@ -244,4 +245,120 @@ img.img-fluid.logo {
     font-family: 'ChaparralPro_light','Arial Narrow', Arial, sans-serif;
     font-weight: 100;
     font-size: 1em;
+}
+
+/**** TESTIMONIAL ****/
+
+#testimonial{
+    padding: 60px 0px;
+}
+#testimonial .clients_container{
+    margin: 50px 0px;
+}
+
+#testimonial .testimonial_header h1{
+    color: #a28548;
+    font-family: 'ChaparralPro_bold';
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
+#testimonial .testimonial_header span{
+    position: relative;
+    font-size: 20px;
+}
+
+#testimonial .testimonial_header span::after, #testimonial .testimonial_header span::before {
+    width: 60px;
+    height: 1px;
+    background-color: grey;
+    top: 50%;
+    position: absolute;
+    margin-top: -1px;
+}
+
+#testimonial .testimonial_header span::after{
+    content: "";
+    right: 30px;
+}
+#testimonial .testimonial_header span::before{
+    content: "";
+    left: 30px;
+}
+#testimonial .clients {
+    width: 100%;
+    float: left;
+    position: relative;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+#testimonial .clients::before{
+    content: '';
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fff;
+    border-left: 60px solid #e9ecef;
+}
+
+#testimonial .client-img-designation {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#testimonial .clients .client-img {
+    max-width: 80px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+#testimonial .clients .caption {
+    float: left;
+    margin-top: 8px;
+}
+
+#testimonial .clients .caption h3{
+    color: #856404;
+}
+
+#testimonial .client-content {
+    float: left;
+    width: 100%;
+    color: #555;
+}
+
+/**** ASSOCIATE ****/
+
+#associate {
+    background: url(../images/SEJA_UM_ASSOCIADO.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 140px 0;
+    position: relative;
+}
+
+#associate .opacity{
+    background: rgba(0, 0, 0, .5);
+}
+
+#associate h1{
+    color: #ffffff;
+    font-family: 'ChaparralPro_bold';
+    font-size: 7em;
+    text-transform: uppercase;
+    text-shadow: 0px 4px 10px rgba(0,0,0,0.8);
+}
+#associate h3{
+    color: #ffffff;
+    font-family: 'ChaparralPro_light';
+    font-size: 2em;
+    text-transform: uppercase;
 }
