@@ -109,9 +109,139 @@ img.img-fluid.logo {
     background: rgba(162, 133, 72, .7);
 }
 
+#blog .post_container{
+    padding: 25px;
+}
+
+#blog .post_arrow{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+    z-index: 50;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
 #blog h1 {
     color: #FFF;
     font-family: 'ChaparralPro_bold';
     font-size: 3em;
     text-transform: uppercase;
+    margin-bottom: 50px;
+}
+#blog .description_container{
+    padding: 0px;
+}
+
+#blog .img_container{
+    padding: 0px;
+}
+
+#blog .description{
+    text-align: center;
+    padding: 80px 2% 0 2%;
+    width: 100%;
+}
+
+#blog .description_date{
+    display: block;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #a28548;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#blog .description_title{
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 10px 30px 13px 30px;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+#blog .description_title a{
+    color: #000;
+}
+
+#blog .description_category{
+    display: block;
+    font-size: 9px;
+    font-weight: 700;
+    line-height: 12px;
+    color: #a28548;
+    text-transform: uppercase;
+}
+
+#blog .button_post{
+    position: relative;
+}
+
+/**** GALLERY ****/
+
+#gallery {
+    padding: 85px 0px 85px 0px;
+    position: relative;
+}
+
+#gallery h1{
+    color: #a28548;
+    font-family: 'ChaparralPro_bold';
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#gallery .carousel-indicators li {
+    background-color: rgba(0,0,0,.5);
+}
+
+#gallery .carousel-indicators .active {
+    background-color: #000;
+}
+
+/**** USEFUL LINKS ****/
+#useful{
+    background: url(../images/boofa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 35px 0;
+}
+
+#useful .opacity{
+    background: rgba(112, 73, 28, 0.6);
+}
+
+#useful h1{
+    font-family: 'ChaparralPro_light';
+    text-transform: uppercase;
+    margin: 50px 0px 50px 0px;
+    color: #FFF;
+}
+
+#useful h1 span {
+    font-family: 'ChaparralPro_bold';
+    color: #ffd57d;
+    font-size: 1.5em;
+    margin-left: 50px;
+}
+
+#useful p{
+    color: #fff;
+    font-family: 'ChaparralPro_light','Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 1em;
 }
