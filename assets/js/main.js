@@ -1,9 +1,43 @@
 /**
  * LOAD DOCUMENT
  */
-$(window).on("load", function () {
+$(window).on('load', function () {
     $(".loaderBG").hide();
 });
+
+/**
+ * BUTTON TO TOP
+ */
+$(document).ready(function () {
+    $('.box').hide();
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > 0) {
+            $('.box').fadeIn();
+        } else {
+            $('.box').fadeOut();
+        }
+    });
+
+    $('.box').click(function () {
+        $('html, body').animate({
+            scrollTop: 0
+        }, 1000);
+    });
+
+});
+
+/**
+ * SCROLL SUAVE
+ */
+$('nav a').click(function (e) {
+    e.preventDefault();
+    var id = $(this).attr('href'),
+        targetOffset = $(id).offset().top;
+    $('html, body').animate({
+        scrollTop: targetOffset
+    }, 800);
+});
+
 /**
  * ANIMAÇÃO DO SCROLL
  */

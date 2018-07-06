@@ -20,6 +20,22 @@ html,body{
     margin: 0 auto;
 }
 
+.box{
+    background: #a28548;
+    position: fixed;
+    padding: 13px;
+    cursor: pointer;
+    border-radius: 18%;
+    bottom: 20px;
+    z-index: 100;
+    right: 20px;
+}
+
+.box i{
+    color: #FFF;
+    font-size: 30px;
+}
+
 header{
     background: #F8F9FA;
 }
