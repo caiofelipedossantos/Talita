@@ -73,10 +73,12 @@ debounce = function (func, wait, immediate) {
             }
         })
     }
-    animeScroll();
+    
+    /*animeScroll();
     $(document).scroll(debounce(function () {
         animeScroll();
-    }, 100));
+    }, 100));*/
+
 }());
 
 /**
