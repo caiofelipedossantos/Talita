@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="assets/fonts/fonts.css">
     <!-- FONT-AWESOME  -->
     <link rel="stylesheet" href="assets/libs/font-awesome/css/font-awesome.min.css">
+    <!-- OWL-CAROUSEL  -->
+    <link rel="stylesheet" href="assets/libs/owl-carrousel/assets/owl.carousel.min.css">
+    <!-- OWL-CAROUSEL THEME  -->
+    <link rel="stylesheet" href="assets/libs/owl-carrousel/assets/owl.theme.default.min.css">
     <!-- THEME  -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -40,35 +44,35 @@
                         <div class="collapse navbar-collapse" id="main_menu">
                             <ul class="navbar-nav text-center ml-auto">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Minha História
+                                    <a class="nav-link" href="#my_story">Minha História
                                         <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Freire Advogados</a>
+                                    <a class="nav-link" href="#freire">Freire Advogados</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Publicações</a>
+                                    <a class="nav-link" href="#blog">Publicações</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Galeria</a>
+                                    <a class="nav-link" href="#gallery">Galeria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Links Úteis</a>
+                                    <a class="nav-link" href="#useful">Links Úteis</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Seja Um Associado</a>
+                                    <a class="nav-link" href="#associate">Seja Um Associado</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contato</a>
+                                    <a class="nav-link" href="#contact">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="https://www.facebook.com/talitadiogenes.freire" target="_blank">
                                         <i class="fa fa-facebook"></i>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">
+                                    <a class="nav-link" href="https://www.instagram.com/talitadiogenesfreireadv" target="_blank">
                                         <i class="fa fa-instagram"></i>
                                     </a>
                                 </li>
@@ -103,7 +107,7 @@
     <!-- SLIDER : END-->
 
     <!-- MY STORY -->
-    <div id="my_story">
+    <div id="my_story" class="anime">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -134,40 +138,41 @@
                     </p>
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h1>
-                        Freire
-                        <br />
-                        <span>Advogados</span>
-                    </h1>
-                </div>
-                <div class="col-md-6">
-                    <p>
-                        Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o
-                        século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer
-                        um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto
-                        para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de
-                        60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando
-                        passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
-                    </p>
-                </div>
-                <div class="col-md-6 ">
-                    <div class="story_image">
-                        <div class="image_container">
-                            <img src="assets/images/GRUPO_freire_advogados_HORIZONTAL.png" class="img-fluid about-freire" alt="" />
+            <div id="freire">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>
+                            Freire
+                            <br />
+                            <span>Advogados</span>
+                        </h1>
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o
+                            século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para
+                            fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também
+                            ao salto para a editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou
+                            na década de 60, quando a Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais
+                            recentemente quando passou a ser integrado a softwares de editoração eletrônica como Aldus PageMaker.
+                        </p>
+                    </div>
+                    <div class="col-md-6 ">
+                        <div class="story_image">
+                            <div class="image_container">
+                                <img src="assets/images/GRUPO_freire_advogados_HORIZONTAL.png" class="img-fluid about-freire" alt="" />
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
     <!-- MY STORY : END-->
 
     <!-- BLOG : END-->
-    <div id="blog" class="parallax">
+    <div id="blog" class="parallax anime">
         <div class="opacity"></div>
         <div class="container">
             <div class="row">
@@ -272,42 +277,49 @@
     <!-- BLOG : END-->
 
     <!-- GALLERY : END-->
-    <div id="gallery">
+    <div id="gallery" class="anime">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="text-center">Galeria</h1>
-                    <div class="card-group">
-                        <div class="card">
-                            <img class="card-img-top" src="http://www.cssvillain.com/hungry/images/demo/blog-home/featured-image-01.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                                    This content is a little bit longer.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                    <div class="owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="card">
+                                <img class="card-img-top" src="http://www.cssvillain.com/hungry/images/demo/blog-home/featured-image-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        This content is a little bit longer.</p>
+                                    <p class="card-text">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="http://www.cssvillain.com/hungry/images/demo/blog-home/featured-image-01.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                        <div class="item">
+                            <div class="card">
+                                <img class="card-img-top" src="http://www.cssvillain.com/hungry/images/demo/blog-home/featured-image-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        This content is a little bit longer.</p>
+                                    <p class="card-text">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
                             </div>
                         </div>
-                        <div class="card">
-                            <img class="card-img-top" src="http://www.cssvillain.com/hungry/images/demo/blog-home/featured-image-01.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
-                                    This card has even longer content than the first to show that equal height action.</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
+                        <div class="item">
+                            <div class="card">
+                                <img class="card-img-top" src="http://www.cssvillain.com/hungry/images/demo/blog-home/featured-image-01.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.
+                                        This content is a little bit longer.</p>
+                                    <p class="card-text">
+                                        <small class="text-muted">Last updated 3 mins ago</small>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -318,7 +330,7 @@
     <!-- GALLERY : END-->
 
     <!-- USEFUL LINKS -->
-    <div id="useful" class="parallax">
+    <div id="useful" class="parallax anime">
         <div class="opacity"></div>
         <div class="container">
             <div class="row">
@@ -344,7 +356,7 @@
     <!-- USEFUL LINKS : END-->
 
     <!-- TESTIMONIAL -->
-    <div id="testimonial">
+    <div id="testimonial" class="anime">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center testimonial_header">
@@ -432,7 +444,7 @@
     <!-- TESTIMONIAL : END -->
 
     <!-- ASSOCIATE -->
-    <div id="associate" class="parallax">
+    <div id="associate" class="parallax anime">
         <div class="opacity"></div>
         <div class="container">
             <div class="row">
@@ -448,7 +460,7 @@
     <!-- ASSOCIATE : END -->
 
     <!-- CONTACT -->
-    <div id="contact">
+    <div id="contact" class="anime">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
@@ -527,6 +539,8 @@
     <script src="assets/libs/jquery/jquery-3.3.1.min.js"></script>
     <!-- BOOTSTRAP  -->
     <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
+    <!-- OWL-CARROUSEL  -->
+    <script src="assets/libs/owl-carrousel/owl.carousel.min.js"></script>
     <!-- THEME  -->
     <script src="assets/js/main.js"></script>
 </body>
