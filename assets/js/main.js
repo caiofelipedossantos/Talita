@@ -1,4 +1,10 @@
 /**
+ * LOAD DOCUMENT
+ */
+$(window).on("load", function () {
+    $(".loaderBG").hide();
+});
+/**
  * ANIMAÇÃO DO SCROLL
  */
 //DEBOUNCE PARA SEGURAR AS REQUISICOES DO SCROLL POR UM TEMPO
@@ -60,5 +66,7 @@ $('.owl-carousel').owlCarousel({
             loop: false
         }
     }
-})
+});
+
+
 
