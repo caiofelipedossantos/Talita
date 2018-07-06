@@ -9,12 +9,13 @@ $(window).on('load', function () {
  * BUTTON TO TOP
  */
 $(document).ready(function () {
+    var menuHeight = $('header').innerHeight();
     $('.box').hide();
     $(window).on('scroll', function () {
-        if ($(this).scrollTop() > 0) {
-            $('.box').fadeIn();
+        if ($(this).scrollTop() > menuHeight) {
+            $('.box').fadeIn(500);
         } else {
-            $('.box').fadeOut();
+            $('.box').fadeOut(500);
         }
     });
 
