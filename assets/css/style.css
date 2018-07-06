@@ -1,6 +1,16 @@
 html,body{
     background: transparent;
 }
+header{
+    background: #F8F9FA;
+}
+
+footer{
+    margin: 0;
+    padding: 10px 0px;
+    position: relative;
+    width: 100%;
+}
 
 img {
     color: transparent;
@@ -361,4 +371,83 @@ img.img-fluid.logo {
     font-family: 'ChaparralPro_light';
     font-size: 2em;
     text-transform: uppercase;
+}
+
+/**** CONTATC ****/
+
+#contact{
+    padding: 80px 0px;
+}
+
+#contact h1{
+    color: #a28548;
+    font-family: 'ChaparralPro_bold';
+    font-size: 3em;
+    text-transform: uppercase;
+    line-height: .4;
+}
+#contact span{
+    font-family: 'ChaparralPro_bold';
+    font-size: 15px;
+    text-transform: uppercase;
+    line-height: 0;
+}
+
+#contact .contact_container{
+    margin-top: 50px;
+}
+
+#contact .contact_info .list-group-item{
+    border: 0 !important;
+    padding: 0 !important;
+    font-size: 23px;
+    font-family: 'ChaparralPro_bold_italic';
+}
+#contact .contact_info .list-group-item span{
+    font-family: 'ChaparralPro_light_italic';
+    font-size: 27px;
+    text-transform: none;
+}
+
+#contact .contact_info h3{
+    font-family: 'ChaparralPro_bold';
+    text-transform: uppercase;
+    margin: 20px 0px;
+    color: #A28548;
+}
+
+#contact .contact_info p{
+    font-family: 'ChaparralPro_light';
+    font-size: 20px;
+}
+
+#contact .contact_container .logo{
+    max-width: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: 10px;
+    border: 3px solid #A28548;
+}
+
+#contact .contact_container .logo img{
+    color: transparent;
+    font-size: 0;
+    vertical-align: middle;
+    -ms-interpolation-mode: bicubic;
+    max-width: 100%;
+    height: auto;
+}
+
+#contact form label{
+    font-family: 'ChaparralPro_bold';
+}
+
+#contact form button{
+    color: #fff;
+    background-color: #A28548;
+    border-color: #7c6430;
+}
+
+footer p{
+    margin-top: 16px;
 }

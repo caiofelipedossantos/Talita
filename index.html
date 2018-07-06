@@ -25,7 +25,7 @@
 <body>
     <!-- HEADER -->
     <header>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <!-- NAVBAR -->
                 <div class="col-md-12 main_nav">
@@ -38,7 +38,7 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="main_menu">
-                            <ul class="navbar-nav text-center">
+                            <ul class="navbar-nav text-center ml-auto">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#">Minha História
                                         <span class="sr-only">(current)</span>
@@ -51,25 +51,26 @@
                                     <a class="nav-link" href="#">Publicações</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Links Úteis</a>
+                                    <a class="nav-link" href="#">Galeria</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Galeria</a>
+                                    <a class="nav-link" href="#">Links Úteis</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Seja Um Associado</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Tire Suas Dúvidas</a>
-                                </li>
-                                <li class="nav-item">
                                     <a class="nav-link" href="#">Contato</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">IN</a>
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">FB</a>
+                                    <a class="nav-link" href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
                                 </li>
                             </ul>
                         </div>
@@ -447,8 +448,80 @@
     <!-- ASSOCIATE : END -->
 
     <!-- CONTACT -->
-    
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1>Contato</h1>
+                    <span>Tire suas dúvidas!</span>
+                </div>
+            </div>
+            <div class="contact_container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="logo text-center">
+                            <img src="assets/images/contact.jpg" alt="Talita Freire" class="img-fluid">
+                        </div>
+                        <div class="contact_info">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <strong>Telefone: </strong>
+                                    <span>(88)2047.0125</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>Whatsapp: </strong>
+                                    <span>(88)9.9901.0740</span>
+                                </li>
+                                <li class="list-group-item">
+                                    <strong>E-mail: </strong>
+                                    <span>atendimento@talitafreire.com.br</span>
+                                </li>
+                            </ul>
+                            <h3>Horário de Atendimento</h3>
+                            <p>
+                                <strong>Segunda a Sexta </strong> 08h às 12h | 13h às 18h
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome" aria-describedby="nome" placeholder="Nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">E-Mail</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="E-Mail">
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" class="form-control" id="telefone" aria-describedby="telefone" placeholder="Telefone">
+                            </div>
+                            <div class="form-group">
+                                <label for="duvida">Qual a sua dúvida?</label>
+                                <textarea class="form-control" id="duvida" rows="3"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-lg">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- CONTACT : END-->
+
+    <!-- MAP -->
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15893.621294629578!2d-39.29725163004828!3d-5.198810698195971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7bc34e39ab88267%3A0xe5debdafc5ccb18a!2sQuixeramobim+-+CE!5e0!3m2!1spt-BR!2sbr!4v1530849641673"
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <!-- MAP : END-->
+
+    <!-- FOOTER-->
+    <footer class="btn-dark">
+        <p class="text-center text-light">Copyright 2018 Talita Freire Advogacia Presidenciária | Todos os Direitos Reservados | Desenvolvido por W3Connect
+            | Caio Felipe V1.0</p>
+    </footer>
+    <!-- FOOTER : END-->
 
     <!-- JQUERY  -->
     <script src="assets/libs/jquery/jquery-3.3.1.min.js"></script>
